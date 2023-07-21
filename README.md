@@ -4,24 +4,32 @@ These are my configuration files for the Klipper install on my Ender 3 Neo. The 
 
 
 ## Configuration Features
-* Raspberry Pi as Secondary MCU
-* ADXL345
-* Input Shaping
-* CR Touch
-* Custom Start/End Print Macros
-* Beeper
-* Pi & MCU Temperature Sensors
-* Display Use
-* Screws Tilt Adjust
-* Auto-tuned PID
-* Raspberry Pi Camera
 * Mainsail Frontend
-* KlipperScreen (Work in progress)
+* CR Touch
+* Beeper & LCD Integration
+* Custom Macros
+  - Start/End
+  - Beeper (M300)
+  - Color Change (M600)
+* PID Autotuning
+* Input Shaper
+* Screws Tilt Adjust
+* MCU Temperature Information
+* Raspberry Pi as Secondary MCU
+  - Raspberry Pi Camera
+  - ADXL345
+  - Host Temperature Information
+
 
 ## Printer Hardware
 * Ender 3 Neo
 * BTT SKR Mini E3 V3.0
 
+## Works In Progress
+* Refine and tune BTT SKR configuration
+* Capricorn tube
+* Ambient environment sensors
+* LED controller
 
 If this was useful, I'd appricate a cold beer or hot coffee: [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/alteredworkshop)
 
