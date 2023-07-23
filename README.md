@@ -24,10 +24,10 @@ These are my configuration files for the Klipper install on my Ender 3 Neo. The 
 ## Printer Hardware
 * Ender 3 Neo
 * BTT SKR Mini E3 V3.0
+* Capricorn PTFE
 
 ## Works In Progress
 * Refine and tune BTT SKR configuration
-* Capricorn tube
 * Ambient environment sensors
 * LED controller
 
