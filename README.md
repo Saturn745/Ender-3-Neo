@@ -1,35 +1,46 @@
 # Ender 3 Neo Klipper Configuration
 
-These are my configuration files for the Klipper install on my Ender 3 Neo. The host is a Raspberry Pi 4B. Below I have listed the features in the configuration as well as the current printer hardware. Klipper was installed via [KIAUH](https://github.com/th33xitus/kiauh). 
+These are my configuration files for the Klipper install on my Ender 3 Neo. I have included a list of features in the configuration file and some works in progress. I also listed out the hardware and software used for my prints.
 
 
 ## Configuration Features
-* Mainsail Frontend
+* Mainsail frontend
 * CR Touch
-* Beeper & LCD Integration
-* Custom Macros
+* Beeper & LCD integration
+* Custom macros
   - Start/End
   - Beeper (M300)
-  - Color Change (M600)
-* PID Autotuning
-* Input Shaper
-* Screws Tilt Adjust
-* MCU Temperature Information
-* Raspberry Pi as Secondary MCU
+  - Color change (M600)
+* PID autotuning
+* Input shaper
+* Screws tilt adjust
+* MCU temperature reportin
+* Raspberry Pi as secondary MCU
   - Raspberry Pi Camera
   - ADXL345
-  - Host Temperature Information
+  - Host temperature reporting
 
 
-## Printer Hardware
+## Hardware & Software
 * Ender 3 Neo
 * BTT SKR Mini E3 V3.0
 * Capricorn PTFE
+* Raspberry Pi 4B with camera
+* SuperSlicer
 
 ## Works In Progress
-* Refine and tune BTT SKR configuration
 * Ambient environment sensors
 * LED controller
+
+### Credits
+* [KIAUH](https://github.com/th33xitus/kiauh) 
+  - <sub>Klipper installation made super easy</sub>
+* [Ellis3DP](https://ellis3dp.com/Print-Tuning-Guide/)
+  - <sub>For all the tuning needs</sub>
+* [SuperSlicer](https://github.com/supermerill/SuperSlicer)
+  - <sub>The most Klipper friendly slicer</sub>  
+* [Klipper](https://www.klipper3d.org)
+  -<sub>And you can't forget who made this all possible</sub>    
 
 If this was useful, I'd appricate a cold beer or hot coffee: [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/alteredworkshop)
 
