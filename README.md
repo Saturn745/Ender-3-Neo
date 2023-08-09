@@ -1,7 +1,8 @@
-# Ender 3 Neo Klipper Configuration
+# Ender 3 Neo Printer Project
 
-These are my configuration files for the Klipper install on my Ender 3 Neo. I have included a list of features in the configuration file and some works in progress. I also listed out the hardware and software used for my prints.
+These are my configuration files for the Klipper install on my Ender 3 Neo. I have included a list of features in the configuration file and some works in progress. I also listed out the hardware and software used for my prints. Macros have been broken out into a seperate configuraion file for better readability. I'm working on addtional documentation and diagrams regarding some of my additions.
 
+Edit repo
 
 ## Configuration Features
 * Mainsail frontend
@@ -11,15 +12,17 @@ These are my configuration files for the Klipper install on my Ender 3 Neo. I ha
   - Start/End
   - Beeper (M300)
   - Color change (M600)
+  - LED controls  
 * PID autotuning
 * Input shaper
 * Screws tilt adjust
 * MCU temperature reportin
 * Raspberry Pi as secondary MCU
   - Raspberry Pi Camera
-  - ADXL345
+  - ADXL345 accelerometer
   - Host temperature reporting
-
+  - Custom LED controller
+  - HTU21D environment sensor
 
 ## Hardware & Software
 * Ender 3 Neo
@@ -29,8 +32,7 @@ These are my configuration files for the Klipper install on my Ender 3 Neo. I ha
 * SuperSlicer
 
 ## Works In Progress
-* Ambient environment sensors
-* LED controller
+* This write up!
 
 ### Credits
 * [KIAUH](https://github.com/th33xitus/kiauh) 
@@ -40,7 +42,7 @@ These are my configuration files for the Klipper install on my Ender 3 Neo. I ha
 * [SuperSlicer](https://github.com/supermerill/SuperSlicer)
   - <sub>The most Klipper friendly slicer</sub>  
 * [Klipper](https://www.klipper3d.org)
-  -<sub>And you can't forget who made this all possible</sub>    
+  - <sub>And you can't forget who made this all possible</sub>    
 
 If this was useful, I'd appricate a cold beer or hot coffee: [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/alteredworkshop)
 
