@@ -2,7 +2,6 @@
 
 These are my configuration files for the Klipper install on my Ender 3 Neo. I have included a list of features in the configuration file and some works in progress. I also listed out the hardware and software used for my prints. Macros have been broken out into a seperate configuraion file for better readability. I'm working on addtional documentation and diagrams regarding some of my additions.
 
-Edit repo
 
 ## Configuration Features
 * Mainsail frontend
